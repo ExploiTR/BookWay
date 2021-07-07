@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:shape="rectangle"
+            android:useLevel="true">
+            <gradient
+                android:angle="135"
+                android:endColor="#263238"
+                android:startColor="#000000" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/splash_back" />
+</layer-list>
